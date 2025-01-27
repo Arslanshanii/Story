@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# Documentation for examClass.cls
+## Documentation for examClass.cls
 
 ## Overview
 The `examClass` is a custom LaTeX class designed for creating exams in a structured and versatile way. It supports both English and German content and can include solutions based on the provided options.It builds upon the `article class`, adding functionality tailored to exam formatting, including tasks, subtasks, solutions, and points tracking.
