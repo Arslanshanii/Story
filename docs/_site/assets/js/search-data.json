@@ -175,138 +175,152 @@
     "relUrl": "/exercise.html"
   },"25": {
     "doc": "Home",
-    "title": "Chair of Interconnected Automation Systems",
-    "content": "The Chair of Interconnected Automation Systems (IAS) was established on February 1, 2024, with the vision of advancing research and teaching in cutting-edge technologies. Our focus lies in developing innovative solutions for intelligent technical systems, addressing some of the most pressing challenges in modern automation, energy, and control systems. Our research areas include: . | Power electronic converters for efficient and sustainable energy use. | Decentralized grids, enabling resilient and autonomous energy systems. | Smart control systems that integrate advanced modeling and monitoring techniques. | Interconnected systems automation, bridging hardware and software for seamless operation. | . At IAS, we are committed to creating a collaborative learning environment, inspiring innovation, and preparing the next generation of engineers and researchers to lead in the automation and energy sectors. ",
-    "url": "/#chair-of-interconnected-automation-systems",
+    "title": "Documentation for LaTeX Course Templates",
+    "content": "This website serves as the official documentation hub for the LaTeX class files developed for course materials, including exercises, lectures, and examinations. These templates are specifically designed to streamline the preparation of academic documents, ensuring consistency, clarity, and a professional appearance across all materials. ",
+    "url": "/#documentation-for-latex-course-templates",
     
-    "relUrl": "/#chair-of-interconnected-automation-systems"
+    "relUrl": "/#documentation-for-latex-course-templates"
   },"26": {
     "doc": "Home",
-    "title": "About the Documentation",
-    "content": "This webpage serves as the central hub for documentation related to the LaTeX classes used in our courses. It provides: . | A comprehensive guide to the exercise, lecture, and exam class files. | Practical examples showcasing how to use these class files effectively. | Command explanations with detailed descriptions of their parameters and outputs. | Step-by-step instructions for creating professional and consistent course materials. | . Whether you’re new to LaTeX or an experienced user, this documentation is designed to make working with our templates simple and efficient. ",
-    "url": "/#about-the-documentation",
+    "title": "Purpose and Scope",
+    "content": "The documentation is structured to provide comprehensive support for users at all levels of experience with LaTeX. From understanding the foundational structure of the templates to advanced customization options, this resource aims to facilitate the efficient and accurate preparation of course materials. ",
+    "url": "/#purpose-and-scope",
     
-    "relUrl": "/#about-the-documentation"
+    "relUrl": "/#purpose-and-scope"
   },"27": {
+    "doc": "Home",
+    "title": "Features of the Documentation",
+    "content": ". | Comprehensive Usage Guides Step-by-step instructions to help users implement and adapt the class files for a wide range of academic scenarios. | Template Examples Pre-configured examples that illustrate best practices and demonstrate the effective use of the templates. | Detailed Command Reference Exhaustive explanations of all commands provided by the class files, including their parameters and expected outputs. | Styling and Consistency Guidelines Recommendations and techniques to ensure uniformity and high-quality design throughout course materials. | . ",
+    "url": "/#features-of-the-documentation",
+    
+    "relUrl": "/#features-of-the-documentation"
+  },"28": {
+    "doc": "Home",
+    "title": "Who Can Benefit?",
+    "content": "This documentation is designed to cater to a diverse audience, from those new to LaTeX to experienced users seeking advanced features. Whether the goal is to create lecture slides, structured exercises, or formal examination papers, this resource provides the tools and guidance necessary for efficient document creation. By adhering to these templates, users can focus on the content of their course materials while leveraging a framework that simplifies formatting and design. ",
+    "url": "/#who-can-benefit",
+    
+    "relUrl": "/#who-can-benefit"
+  },"29": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"28": {
+  },"30": {
     "doc": "lectureclass.cls",
     "title": "LectureClass LaTeX Class Documentation",
     "content": "The lectureClass is a custom LaTeX class designed for creating visually appealing and well-structured lecture slides using the beamer class. This document provides an overview of its features, customization options, and usage instructions. ",
     "url": "/lecture.html#lectureclass-latex-class-documentation",
     
     "relUrl": "/lecture.html#lectureclass-latex-class-documentation"
-  },"29": {
+  },"31": {
     "doc": "lectureclass.cls",
     "title": "1. Class Overview",
     "content": "Base Class . | Base Class: The lectureClass inherits from the beamer class. | Default Options: . | aspectratio=169 | usepdftitle=false | handout | . | . ",
     "url": "/lecture.html#1-class-overview",
     
     "relUrl": "/lecture.html#1-class-overview"
-  },"30": {
+  },"32": {
     "doc": "lectureclass.cls",
     "title": "2. Class Options",
     "content": "Marketing Mode . The class includes a marketing option for targeting external audiences. | Option: marketing | Purpose: Includes or excludes logos and content based on the audience. | Implementation: \\DeclareOption{marketing}{\\marketingtrue} \\ProcessOptions\\relax . | . ",
     "url": "/lecture.html#2-class-options",
     
     "relUrl": "/lecture.html#2-class-options"
-  },"31": {
+  },"33": {
     "doc": "lectureclass.cls",
     "title": "3. Document Style Settings",
     "content": "Themes and Colors . | Beamer Theme: Madrid | Color Theme: dove | Font Theme: professionalfonts | . Table of Contents Automation . | A table of contents is automatically displayed at the beginning of each section and subsection (after the first subsection). \\AtBeginSection[] { \\begin{frame}{} \\tableofcontents[sectionstyle=show/hide,subsectionstyle=show/show/hide] \\end{frame} } \\AtBeginSubsection[] { \\ifnum\\value{subsection} &gt; 1 \\begin{frame}{} \\tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide] \\end{frame} \\fi } . | . Customization of Itemization . | Itemize: triangle icons | Enumerate: Custom vertical spacing before and after \\setbeamertemplate{itemize items}[triangle] \\setbeamercolor{item}{fg = uniblue} \\setbeamertemplate{itemize/enumerate body begin}{\\vspace{0.5em}} \\setbeamertemplate{itemize/enumerate body end}{\\vspace{0.5em}} . | . ",
     "url": "/lecture.html#3-document-style-settings",
     
     "relUrl": "/lecture.html#3-document-style-settings"
-  },"32": {
+  },"34": {
     "doc": "lectureclass.cls",
     "title": "4. Logo and Author Information",
     "content": "Dynamic Logos . Logos are adjusted based on the marketing option. | With Marketing: \\titlegraphic{\\href{https://www.eti.uni-siegen.de/ias/}{\\includegraphics[height=1cm]{IAS.pdf}}} . | Without Marketing: \\titlegraphic{\\href{https://www.eti.uni-siegen.de/ias/}{\\includegraphics[height=1cm]{IAS.pdf}}\\hspace{2cm}\\href{https://creativecommons.org/licenses/by/4.0/}{\\includegraphics[height=1cm]{CC-BY.pdf}}} . | . ",
     "url": "/lecture.html#4-logo-and-author-information",
     
     "relUrl": "/lecture.html#4-logo-and-author-information"
-  },"33": {
+  },"35": {
     "doc": "lectureclass.cls",
     "title": "5. Package Dependencies",
     "content": "The class requires the following LaTeX packages: . | algorithm2e | amsmath, amsfonts | array, booktabs, caption | circuitikz | glossaries-extra | hyperref, hyperxmp | inputenc | pgfplots | tikz, tikzpeople | . Conditional Packages . | With marketing: Glossaries are loaded without automake. \\RequirePackage[toc = false]{glossaries-extra} . | Without marketing: Glossaries are loaded with automake. \\RequirePackage[automake, toc = false]{glossaries-extra} . | . ",
     "url": "/lecture.html#5-package-dependencies",
     
     "relUrl": "/lecture.html#5-package-dependencies"
-  },"34": {
+  },"36": {
     "doc": "lectureclass.cls",
     "title": "6. Visual Customizations",
     "content": "Colors . The class defines several custom colors: . | Primary Colors: \\definecolor{uniblue}{HTML}{00385F} \\definecolor{unilightblue}{HTML}{009ED4} \\definecolor{unigrey}{HTML}{64727f} \\definecolor{links}{HTML}{2A1B81} . | Signal Colors: \\definecolor{signalred}{rgb}{0.9047, 0.1918, 0.1988} \\definecolor{signalblue}{rgb}{0.2941, 0.5447, 0.7494} . | . Footer Design . Custom footer layout: . \\setbeamertemplate{footline} \\leavevmode% \\hbox{ \\vskip0pt% } . ",
     "url": "/lecture.html#6-visual-customizations",
     
     "relUrl": "/lecture.html#6-visual-customizations"
-  },"35": {
+  },"37": {
     "doc": "lectureclass.cls",
     "title": "7. SI Unit Setup",
     "content": "The class configures siunitx: . | Fraction Style: \\sisetup{ per-mode=fraction, fraction-function=\\tfrac, input-digits = 0123456789\\pi, exponent-product=\\ensuremath{\\cdot}, inter-unit-product = {} } . | . ",
     "url": "/lecture.html#7-si-unit-setup",
     
     "relUrl": "/lecture.html#7-si-unit-setup"
-  },"36": {
+  },"38": {
     "doc": "lectureclass.cls",
     "title": "8. Hyperref Settings",
     "content": "The class predefines metadata and hyperlink settings: . \\hypersetup{ colorlinks, linkcolor=, urlcolor=links, pdfcopyright={Creative Commons BY 4.0}, pdflicenseurl={https://creativecommons.org/licenses/by/4.0/}, pdfauthor={Oliver Wallscheid}, pdfcontacturl={https://www.eti.uni-siegen.de/ias/}, pdftitle={Lecture slides} } . ",
     "url": "/lecture.html#8-hyperref-settings",
     
     "relUrl": "/lecture.html#8-hyperref-settings"
-  },"37": {
+  },"39": {
     "doc": "lectureclass.cls",
     "title": "9. Blocks and Theorems",
     "content": "Custom Blocks . The class defines blocks with centered content and adjustable width: . \\newenvironment&lt;&gt;{varblock}[2][.9\\textwidth]{ ... } . Example with Custom Blocks: . Show how to use specific environments like varblock or algo. \\begin{frame} \\frametitle{Custom Block Example} \\begin{varblock}{Example Block Title} This is a custom block defined using `tcolorbox`. \\end{varblock} \\end{frame} \\begin{frame} \\frametitle{Algorithm Example} \\begin{algo} Input: $x$, Output: $y$ \\\\ Step 1: Do something. \\\\ Step 2: Do something else. \\end{algo} \\end{frame} . Theorems . The class integrates tcolorbox for definitions and theorems: . \\newtcbtheorem[number within=part, reset counter on overlays=true]{defi}{Definition}{ ... }{defi} . ",
     "url": "/lecture.html#9-blocks-and-theorems",
     
     "relUrl": "/lecture.html#9-blocks-and-theorems"
-  },"38": {
+  },"40": {
     "doc": "lectureclass.cls",
     "title": "10. TikZ and Circuitikz",
     "content": "The class enables advanced visualizations using TikZ and Circuitikz: . | Included Libraries: arrows, shapes, calc, pgfplots | Custom Settings: \\ctikzset{bipoles/cuteswitch/thickness=0.15} . | . ",
     "url": "/lecture.html#10-tikz-and-circuitikz",
     
     "relUrl": "/lecture.html#10-tikz-and-circuitikz"
-  },"39": {
+  },"41": {
     "doc": "lectureclass.cls",
     "title": "11. Additional Commands",
     "content": "Highlighting . \\newcommand{\\hl}[1]{\\textcolor{signalred}{#1}} \\newcommand{\\hlh}[1]{\\textbf{#1}} . Footnotes Without Numbering . \\newcommand\\blfootnote[1]{ ... } . ",
     "url": "/lecture.html#11-additional-commands",
     
     "relUrl": "/lecture.html#11-additional-commands"
-  },"40": {
+  },"42": {
     "doc": "lectureclass.cls",
     "title": "12. Custom Table Columns",
     "content": "The class includes centered column types for tables: . \\newcolumntype{P}[1]{&gt;{\\centering\\arraybackslash}p{#1}} \\newcolumntype{M}[1]{&gt;{\\centering\\arraybackslash}m{#1}} . ",
     "url": "/lecture.html#12-custom-table-columns",
     
     "relUrl": "/lecture.html#12-custom-table-columns"
-  },"41": {
+  },"43": {
     "doc": "lectureclass.cls",
     "title": "** Practical Examples**",
     "content": "Minimal Working Example (MWE): . Provide users with a simple starting point to understand how to use the class. \\documentclass[marketing]{lectureClass} \\title{Sample Lecture} \\author{John Doe} \\date{\\today} \\begin{document} \\begin{frame} \\titlepage \\end{frame} \\section{Introduction} \\begin{frame} \\frametitle{Welcome} Hello, World! \\end{frame} \\end{document} . ",
     "url": "/lecture.html#-practical-examples",
     
     "relUrl": "/lecture.html#-practical-examples"
-  },"42": {
+  },"44": {
     "doc": "lectureclass.cls",
     "title": "** Explanation of Class-Specific Commands**",
     "content": "Include brief descriptions of custom macros and commands defined in the class file. | Command | Description | . | \\blfootnote{} | Inserts an unnumbered footnote. | . | \\hl{text} | Highlights text in red. | . | \\cmark | Inserts a checkmark symbol. | . | \\xmark | Inserts a crossmark symbol. | . | \\task{} | Creates a numbered task with conditional spacing. | . | \\subtask{} | Creates a numbered subtask (e.g., 1.1, 1.2). | . ",
     "url": "/lecture.html#-explanation-of-class-specific-commands",
     
     "relUrl": "/lecture.html#-explanation-of-class-specific-commands"
-  },"43": {
+  },"45": {
     "doc": "lectureclass.cls",
     "title": "** Option-Specific Differences**",
     "content": "Explain the purpose of the marketing option and how it changes the output. | Option | Description | . | marketing | Adds marketing slides or modifies slide design. | . | (default) | Standard academic lecture-style slides. | . Comparison of marketing Option: . | Without marketing: . | Standard Beamer layout. | Academic-focused color scheme. | . | With marketing: . | Sleek design with larger headings. | Adjusted color scheme for presentations. | . | . For more details, refer to the source code of the lectureClass file. ",
     "url": "/lecture.html#-option-specific-differences",
     
     "relUrl": "/lecture.html#-option-specific-differences"
-  },"44": {
+  },"46": {
     "doc": "lectureclass.cls",
     "title": "lectureclass.cls",
     "content": " ",
